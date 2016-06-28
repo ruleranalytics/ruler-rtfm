@@ -47,3 +47,9 @@ post settings.
     on_sent_ok: 'var email=RulerAnalytics.__sz("input[name=your-email]")[0].value;RulerAnalytics.RegisterAction({ uid: "56d04f7c8c0d4", action:"convert", email:email});’
 
 
+Or from version 1.1 of ruler analytics
+
+.. code-block:: javascript
+
+    RulerAnalytics.trackForm('input', 'formselector', 'goalname')
+
