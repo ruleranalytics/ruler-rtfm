@@ -2,6 +2,8 @@
 Conversion Tracking
 ===========================================
 
+.. Important::
+    This is a work in progress... don't follow any instructions yet.
 
 Automatically capturing form submissions
 ===========================================
@@ -15,8 +17,11 @@ To automatically capture all standard HTML form posts choose requires a single c
 Manually capturing your data
 ===========================================
 
+If you want more control over what data is captured in Ruler Analytics you can manually capture your data using one of the following methods.
+
 HTML forms with POST action
----------------------------
+-----------------------------
+
 For standard (old school) HTML forms add a conversion javascript tag to your ``checkout`` or ``thank you`` page
 
 .. code-block:: html
@@ -35,7 +40,7 @@ For standard (old school) HTML forms add a conversion javascript tag to your ``c
     </script>
 
 
-this needs to appear above the :doc:`tracking javascript tag <tag>` tag. The ``<head>`` tag is a good place to start.
+this needs to appear above the :doc:`tracking javascript tag <getting_started#javascript-tracking-tag>` tag. The ``<head>`` tag is a good place to start.
 
 
 Wordpress Capture Form 7

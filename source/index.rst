@@ -8,17 +8,15 @@
 Ruler Analytics Client Documentation
 ===========================================
 
-Assuming that you have already signed up and have a Ruler Analytics account ...
-
-
-
-
+.. Important::
+    This is a work in progress... don't follow any instructions yet.
 
 .. toctree::
    :maxdepth: 3
 
-   tag
+   getting_started
    conversions
+   calls
 
 
 

@@ -49,7 +49,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'Ruler Analytics'
-copyright = u'2016, Mark Higham'
+copyright = u'2016, Ruler Analytics'
 author = u'Mark Higham'
 
 # The version info for the project you're documenting, acts as replacement for
