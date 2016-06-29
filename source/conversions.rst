@@ -5,9 +5,11 @@ Conversion Tracking
 
 Automatically capturing form submissions
 ===========================================
-You can automatically track all form submissions on your site.
 
-Choose the automatically capture checkbox from https://app.ruleranalytics.com/#/site_settings
+To automatically capture all standard HTML form posts choose requires a single click from the site settings page within the Ruler Dashboard https://app.ruleranalytics.com/#/site_settings
+
+.. image:: _static/autocapture-forms.png
+    :scale: 20%
 
 
 Manually capturing your data
@@ -53,3 +55,15 @@ Or from version 1.1 of ruler analytics
 
     RulerAnalytics.trackForm('input', 'formselector', 'goalname')
 
+
+
+
+
+
+What do we mean by a standard HTML form?
+===========================================
+
+*How technical do you want to go? Let's keep it simple!*
+
+A traditional HTML form will 'post' its data to the webserver
+which will process the results and then serve up another page. Usually a ``thank-you`` or ``checkout-complete`` type page.
